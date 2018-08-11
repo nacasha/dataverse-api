@@ -1,6 +1,6 @@
 {
     "name": "nacasha/dataverse-api",
-    "description": "Class Wrapper to use Dataverse APIs.",
+    "description": "Wrapper to use Dataverse APIs.",
     "homepage": "https://github.com/nacasha/dataverse-api",
     "license": "Unlicense",
     "keywords": [
@@ -13,12 +13,10 @@
     ],
     "require": {
         "php": ">=5.3",
-        "ext-curl": "*",
         "ext-mbstring": "*"
     },
     "require-dev": {
         "ext-gd": "*",
-        "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*"
     },
     "autoload": {
