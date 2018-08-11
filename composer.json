@@ -1,0 +1,29 @@
+{
+    "name": "nacasha/dataverse-api",
+    "description": "Class Wrapper to use Dataverse APIs.",
+    "homepage": "https://github.com/nacasha/dataverse-api",
+    "license": "Unlicense",
+    "keywords": [
+        "php", "curl", "class", "api", "client", "framework", "dataverse"
+    ],
+    "authors": [
+        {
+            "name": "Izal fathoni"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "ext-gd": "*",
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataverseAPI\\": "src/DataverseAPI/"
+        }
+    }
+}
